@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0; 
+    font-family: Poppins-Bold;
+}
+
+@font-face {
+        font-family: Poppins-Bold;
+        src: url(font/Poppins-Medium.otf);
+    }
+
+    body {
+        font-family: 'Poppins', sans-serif !important;
+        width: 100%;
+    }
+
+.profil {
+    margin: 100px 80px 20px 80px;
+    border-bottom: 1px solid #9D9D9D;
+}
+
+.dot1 {
+    margin-top: 20px;
+    height: 100px;
+    width: 100px;
+}
+
+.photoprofil {
+    margin-top: -140px;
+    height: 180px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px solid #252647;
+    
+    
+}
+
+.name  {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #343A40;
+    margin-bottom: 16px;
+    text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.job {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    color: #343A40;
+    margin-bottom: 43px;
+    text-align: center;
+}
+
+.overview {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    /* width: 445px;
+    height: 258px;
+    border: 1px solid #9D9D9D;
+    border-radius: 35px;
+    padding: 0 35px;
+    justify-content: center;
+    background-color: white; */
+}
+
+.desc {
+    text-align: center;
+    font-weight: 600;
+}
+
+
+
+/* .frontend {
+    margin-left: 170px;
+    margin-top: 50px;
+    max-width: 30%;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 20px 30px 20px 20px;
+} */
+
+.ol-front {
+    margin-left: 15px;
+}
+
+/* .backend  {
+    margin-top: -225px;
+    margin-left: 700px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 20px 30px 43px 20px;
+    max-width: 30%;
+} */
+
+.dot2 {
+    
+    margin-left: 1035px;
+    height: 100px;
+    width: 100px;
+    margin-top: -110px;
+    margin-bottom: 20px;
+    
+}
+
+.skill {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 245px;
+    border: 1px solid #9D9D9D;
+    border-radius: 35px;
+    padding: 0 35px;    
+    justify-content: center;
+}
